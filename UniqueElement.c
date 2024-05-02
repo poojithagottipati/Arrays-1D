@@ -25,7 +25,7 @@ int main() {
 
     unique(arr, &size);
 
-    printf("Unique elements:");
+    printf("Unique elements:\n");
     for (int i = 0; i < size; i++) {
         printf(" %d", arr[i]);
     }
@@ -33,3 +33,5 @@ int main() {
 
     return 0;
 }
+// Unique elements:
+// 1 5
